@@ -22,13 +22,13 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
 
-    # - name: install req
-    #   run: pip install -r zenodo/req.txt 
+    - name: install req
+      run: pip install -r req.txt 
 
-    # - name: Run script
-    #   run: python zenodo/test.py 
-    #   env:
-    #     VERSION_TAG: ${{ github.ref_name }}
+    - name: Run script
+      run: python test.py 
+      env:
+        VERSION_TAG: ${{ github.ref_name }}
 
 
       

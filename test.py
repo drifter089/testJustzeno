@@ -17,9 +17,9 @@ zeno.set_project(dep_id=106299)
 # upload file to zenodo
 # zeno.upload_file("test.file.txt", publish=True)
 zeno.update(
-    source="/home/akshat/PyPSA/README.md",
+    source="/home/runner/work/testJustzeno/testJustzeno/test.py",
     publish=True,
-    metadata_json=".zenodo.json",
+    metadata_json="/home/runner/work/testJustzeno/testJustzeno/.zenodo.json",
 )
 # zeno.list_files()
 # zeno.upload_file("test.file.txt",publish=True)
