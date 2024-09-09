@@ -1,0 +1,2 @@
+pip
+  git+https://github.com/drifter089/zenodopy.git@working#egg=zenodopy
