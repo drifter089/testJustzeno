@@ -13,7 +13,7 @@ zeno = zenodopy.Client(sandbox=True, token="CNXNk6GBg0dQUvZJsCUEajG4ZZnAr8YUrWPR
 # )
 zeno.set_project(dep_id=106299)
 
-print("efwe");
+# print("efwe");
 
 # upload file to zenodo
 # zeno.upload_file("test.file.txt", publish=True)
