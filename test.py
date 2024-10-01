@@ -17,18 +17,18 @@ zeno.set_project(dep_id=106299)
 
 # upload file to zenodo
 # zeno.upload_file("test.file.txt", publish=True)
-# zeno.update(
-#     source="/home/runner/work/testJustzeno/testJustzeno/test.py",
-#     publish=True,
-#     metadata_json="/home/runner/work/testJustzeno/testJustzeno/.zenodo.json",
-# )
-
-zeno.rollback_retry(
-    dep_id=106299,
-    source="/home/akshat/PyPSA/README.md",
+zeno.update(
+    source="/home/runner/work/testJustzeno/testJustzeno/test.py",
     publish=True,
-    metadata_json=".zenodo.json",
+    metadata_json="/home/runner/work/testJustzeno/testJustzeno/.zenodo.json",
 )
+
+# zeno.rollback_retry(
+#     dep_id=106299,
+#     source="/home/akshat/PyPSA/README.md",
+#     publish=True,
+#     metadata_json=".zenodo.json",
+# )
 # zeno.list_files()
 # zeno.upload_file("test.file.txt",publish=True)
 
