@@ -26,7 +26,7 @@ jobs:
       run: pip install -r req.txt 
 
     - name: Run script
-      run: python test.py 
+      run: python retry.py 
       env:
         VERSION_TAG: ${{ github.ref_name }}
 
